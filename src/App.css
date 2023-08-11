@@ -12,27 +12,138 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.top h1{
+  text-align: center;
+ 
+}
+hr {
+  color: aqua;
+}
+.top{
+  margin: 100px;
+}
+.mbody {
+  background-color: #f7f7f7;
+}
+.hiring{
+  text-align: center;
+  padding: 30px;
+ 
+}
+.hiring p{
+  color: aqua;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.card {
+  background-color: white;
+  height: 350px;
+  width: 360px;
+  margin-left: 50px;
+  padding: 10px;
+}
+.cardoutter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 55px;
+
+}
+.cardtop {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+.cardbottom{
+
+  color: #9494b8;
+}
+.cardbottom {
+  margin: 10px;
+  
+}
+
+
+.span{
+  padding: 80px;
+  margin-left: 110px;
+}
+
+
+.logot {
+  height: 240px;
+  width: 200px;
+
+}
+.footer{
+  background-color: rgb(7, 21, 32);
+  
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footeritem{
+  display: flex;
 }
+.logo{
+  margin-left: 120px;
+}
+.quecklink{
+  width: 200px;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin: 10px;
+}
+.recentpost{
+  width: 350px;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 80px;
+ 
+}
+.quecklink ul li {
+  margin: 10px;
+}
+ ul li {
+  color: rgb(177, 177, 177);
+  font-family: 'F37 Ginger Pro';
+  margin: 12px;
+  padding: 8px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+/* ul{
+  padding: 0px;
+} */
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+/* .locationicon{
+  display: flex;
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+} */
+.icon{
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.iconparent{
+  
+  margin-right: 20px;
+  display: flex;
+
+}
+.gmail{
+  display: flex;
+}
+.mobile{
+  display: flex;
+  margin-top: 0px;
+  padding: 10px;
+}
+/* .heading{
+  height: 50px;
+  width: 100px;
+} */
+.career{
+  font-size: 35px;
 }
